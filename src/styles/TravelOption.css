@@ -1,0 +1,44 @@
+/* TravelOption.css */
+.travel-option-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.travel-option-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-field {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-back {
+    background-color:green;
+    color:white;
+    border: 1px solid black;
+}
+
+.btn-next {
+    background-color:red;
+    color: white;
+    border: 1px solid black;
+}
