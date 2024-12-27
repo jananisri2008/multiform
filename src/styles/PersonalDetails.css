@@ -1,7 +1,8 @@
-/* PersonalDetails.css */
-
 .personal-details-container {
     padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
     font-family: Arial, sans-serif;
 }
 
@@ -19,6 +20,29 @@
     border-radius: 5px;
 }
 
+.input-field:focus{
+    border-color: #4A90E2;
+    outline: none;
+}
+.gender-container{
+    margin: 15px;
+    font-size: 16px;
+    color: #555;
+}
+.gender-container span {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.gender-container label {
+    margin-right: 20px;
+}
+
+.gender-container input {
+    margin-right: 5px;
+}
+
 .button-next {
     padding: 10px 20px;
     background-color: #4CAF50;
@@ -30,3 +54,5 @@
     width: 100%;
     margin-top: 20px;
 }
+
+

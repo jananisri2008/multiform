@@ -10,6 +10,7 @@ function MultiForm() {
         name: "",
         email: "",
         phone: "",
+        gender:"",
         date: "",
         destination: "",
         origin:"",

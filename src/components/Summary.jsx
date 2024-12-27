@@ -12,9 +12,11 @@ function Summary({ formData, submitForm,prevStep}) {
             <p className="details-item"><strong>Name:</strong> {formData.name}</p>
             <p className="details-item"><strong>Email:</strong> {formData.email}</p>
             <p className="details-item"><strong>Phone No:</strong>{formData.phone}</p>
+            <p className="details-item"><strong>Gender:</strong>{formData.gender}</p>
             <p className="details-item"><strong>Origin:</strong>{formData.origin}</p>
             <p className="details-item"><strong>Destination:</strong> {formData.destination}</p>
             <p className="details-item"><strong>Travel Date:</strong> {formData.date}</p>
+            <p className="details-item"><strong>Travel Class:</strong>{formData.travelClass}</p>
             <p className="details-item"><strong>Card Number:</strong> {formData.cardNumber}</p>
             <p className="details-item"><strong>CVV:</strong> {formData.cvv}</p>
             </div>
