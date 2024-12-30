@@ -28,6 +28,8 @@
     margin: 15px;
     font-size: 16px;
     color: #555;
+    display: flex;
+    flex-direction: column;
 }
 .gender-container span {
     display: block;
@@ -36,13 +38,20 @@
 }
 
 .gender-container label {
-    margin-right: 20px;
+    margin-bottom: 50px;
+    margin-left: 50px;
 }
 
 .gender-container input {
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
+.gender-options{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    align-items: center;
+}
 .button-next {
     padding: 10px 20px;
     background-color: #4CAF50;

@@ -19,10 +19,11 @@ function PersonalDetails({ formData, handleChange, nextStep }) {
             <input className="input-field" type="text" name="phone" placeholder="Phone" value={phone} onChange={handleChange} />
             <div className="gender-container">
                 <span>Gender</span> 
-                <input type="radio" name="gender" value="male" checked={gender==="male"} onChange={handleChange}/>Male
-                <input type="radio" name="gender" value="female" checked={gender==="female"} onChange={handleChange}/>Female
+                <div className="gender-options">
+               <label><input type="radio" name="gender" value="male" checked={gender==="male"} onChange={handleChange}/>Male</label>
+                <label><input type="radio" name="gender" value="female" checked={gender==="female"} onChange={handleChange}/>Female</label>
             </div>
-           
+           </div>
             <button className="button-next" onClick={handleNext}>Next</button>
         </div>
     );
